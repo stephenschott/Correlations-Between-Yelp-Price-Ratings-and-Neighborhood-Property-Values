@@ -13,7 +13,7 @@ We ran models with the input being proportion of Yelp restaurant 1, 2, 3, and 4 
 Ultimately, most of the models were overfit, and severely overfit in some cases.  There were some instances that returned r squared scores in the upper 40s and low 50s percentage that weren't overfit, however this range is still not a super high rate for correlating Yelp price ratings to neighborhood affluence.
 ## Conclusion
 We were not able to find significant correlations between neighborhood affluence and Yelp restaurant price ratings.  We cannot rule out that there are correlations, however. This is primarily because Yelp's API only allowed us to obtain about 40% of the restauarants in the city, well below what one would need for accurate results in this project.  Additionally, to get more accurate results it would be beneficial to get every property value and its latitude and longitude for the city, so that when utilizing a random point's radius you can get an accurate median home value, whereas we had to utilize the next best thing which was neighborhood median home value.
-## Data Sources:
+## Data Sources
 Housing and Rental value/rate data was gathered from Zillow. Datasets on the Zillow Home Value Index (ZHVI) and Zillow Rent Index (ZRI) were publicly available and downloaded directly from: https://www.zillow.com/research/data/
 
 Income, median rent, and population statistics by neighborhood were gathered from city-data.com, which maintains a database of statistics on US cities through both city and private data sources. In the absence of an API/downloadable option, data was scraped from: http://www.city-data.com/nbmaps/neigh-Seattle-Washington.html#N11
