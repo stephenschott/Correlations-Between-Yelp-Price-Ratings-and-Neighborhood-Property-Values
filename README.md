@@ -1,4 +1,5 @@
 # Predicting Neighborhood Affluence with Yelp Ratings
+![image](yelp.jpg)
 ## Problem Statement
 Is there any correlation between Yelp Restauraunt price ratings and neighborhood affluence in Seattle.  
 ## Data Gathering
